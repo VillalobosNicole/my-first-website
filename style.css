@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*, html {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    padding: 50px 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#app {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 20px 20px 0px 20px;
+    background-image: radial-gradient( circle farthest-corner at 49.8% 44.4%,  rgba(251,230,59,1) 0%, rgba(161,255,63,1) 90% );
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title, .user-name {
+    color: rgb(116, 129, 225);
+    text-align: center;
+}
+
+span {
+    background-color: white;
+}
+
+.user-picture {
+    display: block;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 40%;
+}
+
+.user-image {
+    height: 100%;
+}
+
+.nav-list{
+    padding: 0;
+    display: flex;
+    list-style: none;
+    column-gap: 50px;
+    margin-top: auto;
+}
+
+.nav-list li {
+    color: rgb(116, 129, 225);
+    flex: 1;
+    font-weight: 700;
+    padding: 5px 0;
+}
+
+.nav-list .act {
+    border-bottom: 3px solid rgb(116, 129, 225);
+}
+
+.menu-content {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 10px;
+}
+
+.menu-content .card{
+   background-color: rgb(142, 153, 237);
+   display: flex;
+   margin-bottom: 20px;
+   box-shadow: rgb(135, 135, 135) 0px 4px 16px, rgba(150, 150, 150, 0.62) 0px 8px 24px, rgb(155, 155, 163) 0px 16px 56px;
+   cursor: pointer;
+   border-right: 4px solid rgb(159, 212, 72);
+}
+
+.menu-content .card picture {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 80px;
+    min-width: 80px;
+    display: flex;
+    background-color: rgb(222, 228, 234);
+}
+
+.menu-content .card picture img {
+    width: 100%;
+    height: 100%;
+}
+
+.menu-content .card picture .with-padding {
+    height: 80%;
+    width: 80%;
+}
+
+.card .card-content {
+    padding: 10px;
+}
+
+.card .card-content h6 {
+    color: rgb(228, 228, 174);
+    font-size: 16px;
+}
+
+.card .card-content p {
+    color: rgb(228, 228, 174);
+    font-size: 14px;
+    line-height: 1.2;
+}
